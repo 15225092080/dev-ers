@@ -1,0 +1,71 @@
+{
+  "systemmsg": {
+    "getPage": "notice/getPage",
+    "findById": "notice/getById",
+    "download": "pubHttpInterface/download"
+  },
+  "common": {
+    "dic": "pubHttpInterface/getDic",
+    "getOrgName": "pubHttpInterface/getOrgName",
+    "getDeptName": "pubHttpInterface/getDeptName",
+    "orgtree": "pubHttpInterface/getTree",
+    "menu": "home/getUserResource",
+    "getArea": "pubHttpInterface/getProvinceDict",
+    "getAreaByLevel": "/pubHttpInterface/getProvinceByLevel",
+    "getProvinceByTree": "/pubHttpInterface/getProvinceByTree",
+    "getButtonPermissions": "home/getButtonPermissions",
+    "getPage": "editlog/geteditlog",
+    "config": "pubHttpInterface/config",
+    "getSystemDic": "pubHttpInterface/getSystemDic",
+    "getNickByUserName": "pubHttpInterface/getNickByUserName",
+    "system": "home/system"
+  },
+  "menu": {
+    "getPage": "resource/resourceTree",
+    "findById": "resource/findByResourceId",
+    "update": "resource/updateResource",
+    "create": "resource/saveResource",
+    "delUrl": "resource/deleteByResources",
+    "getTreeData": "resource/getTreeData"
+  },
+  "login": {
+    "login": "login",
+    "simpleLogin": "simple/login",
+    "getLoginType": "getLoginType",
+    "userlogout": "userlogout"
+  },
+  "home": {
+    "systemList": "home/systemList",
+    "system": "home/system"
+  },
+  "user": {
+    "getPage": "user/getPage",
+    "delUrl": "user/delete",
+    "findById": "user/getById",
+    "update": "user/update",
+    "create": "user/create",
+    "resetPassword": "user/resetPwd",
+    "changeStatus": "user/changeStatus",
+    "unlockUser": "user/unlockUser",
+    "updatePwd": "pubHttpInterface/updatePwd",
+    "checkPwd": "pubHttpInterface/checkPwd",
+    "getConfigValue": "pubHttpInterface/getConfigValue",
+    "exportUrl": "user/export",
+    "changePwd": "user/changePwd"
+  },
+  "notice": {
+    "getHome": "pubHttpInterface/getHome",
+    "getById": "pubHttpInterface/getNoticeById"
+  },
+  "role": {
+    "getPage": "role/getPage",
+    "findById": "role/getRoleById",
+    "getRoleById": "role/getRoleById",
+    "update": "role/update",
+    "create": "role/create",
+    "delUrl": "role/delete",
+    "changeStopFlag": "role/changeStopFlag",
+    "configurableResource": "role/configurableResource",
+    "getOrgRole": "role/getOrgRole"
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "common": {
+    "dic": "pubHttpInterface/getDic",
+    "getOrgName": "pubHttpInterface/getOrgName",
+    "getDeptName": "pubHttpInterface/getDeptName",
+    "orgtree": "pubHttpInterface/getTree",
+    "menu": "home/getUserResource",
+    "getArea": "pubHttpInterface/getProvinceDict",
+    "getAreaByLevel": "pubHttpInterface/getProvinceByLevel",
+    "getProvinceByTree": "pubHttpInterface/getProvinceByTree",
+    "getButtonPermissions": "home/getButtonPermissions",
+    "getPage": "editlog/geteditlog",
+    "config": "pubHttpInterface/config",
+    "getSystemDic": "pubHttpInterface/getSystemDic"
+  },
+  "holiday": {
+    "getNames": "holiday/getNames",
+    "monthConfig": "holiday/monthConfig",
+    "update": "holiday/update",
+    "createName": "holiday/createName",
+    "importExcel": "holiday/importExcel",
+    "deleteName": "holiday/deleteName",
+    "downloadTemplate": "holiday/downloadTemplate"
+  },
+  "menu": {
+    "getPage": "resource/resourceTree",
+    "findById": "resource/findByResourceId",
+    "update": "resource/updateResource",
+    "create": "resource/saveResource",
+    "delUrl": "resource/deleteByResources",
+    "getTreeData": "resource/getTreeData"
+  },
+  "login": {
+    "login": "login",
+    "simpleLogin": "simple/login",
+    "getLoginType": "getLoginType",
+    "userlogout": "userlogout"
+  },
+  "home": {
+    "systemList": "home/systemList",
+    "system": "home/system"
+  },
+  "user": {
+    "getPage": "user/getPage",
+    "delUrl": "user/delete",
+    "findById": "user/getById",
+    "update": "user/update",
+    "create": "user/create",
+    "resetPassword": "user/resetPwd",
+    "changeStatus": "user/changeStatus",
+    "unlockUser": "user/unlockUser",
+    "updatePwd": "pubHttpInterface/updatePwd",
+    "checkPwd": "pubHttpInterface/checkPwd",
+    "getConfigValue": "pubHttpInterface/getConfigValue",
+    "exportUrl": "user/export",
+    "changePwd": "user/changePwd"
+  },
+  "notice": {
+    "getHome": "pubHttpInterface/getHome",
+    "getById": "pubHttpInterface/getNoticeById"
+  },
+  "role": {
+    "getPage": "role/getPage",
+    "findById": "role/getRoleById",
+    "getRoleById": "role/getRoleById",
+    "update": "role/update",
+    "create": "role/create",
+    "delUrl": "role/delete",
+    "changeStopFlag": "role/changeStopFlag",
+    "configurableResource": "role/configurableResource",
+    "getOrgRole": "role/getOrgRole"
+  },
+  "org": {
+    "getPage": "org/getPage",
+    "findById": "org/findById",
+    "create": "org/insert",
+    "update": "org/update",
+    "stop": "org/stop",
+    "delUrl": "org/delete",
+    "getDept": "dept/getDept",
+    "getTopOrg": "org/getTopOrg",
+    "exportUrl": "org/export",
+    "haveFinancialOrgCode": "org/haveFinancialOrgCode"
+  },
+  "corporationOrg": {
+    "delUrl": "legalpersonorg/delete",
+    "findById": "legalpersonorg/findById",
+    "getPage": "legalpersonorg/getPage",
+    "create": "legalpersonorg/insert",
+    "update": "legalpersonorg/update",
+    "haveOrg": "legalpersonorg/haveOrg",
+    "stopOrg": "legalpersonorg/stop",
+    "haveFinancialOrgCode": "legalpersonorg/haveFinancialOrgCode"
+  },
+  "corporationUser": {
+    "delUrl": "legalPerson/delete",
+    "findById": "legalPerson/getById",
+    "unlockUser": "legalPerson/unlockUser",
+    "getPage": "legalPerson/getPage",
+    "create": "legalPerson/create",
+    "update": "legalPerson/update",
+    "resetPassword": "legalPerson/resetPassword",
+    "changeStatus": "legalPerson/changeStatus",
+    "getTopOrg": "legalpersonorg/getAllOrg",
+    "getLegalPerOrg": "pubHttpInterface/getOrgName"
+  },
+  "userdolog": {
+    "getPage": "actionLog/getPage",
+    "exportUrl": "actionLog/export"
+  },
+  "userinvitelog": {
+    "getPage": "loginLog/getPage",
+    "exportUrl": "loginLog/export"
+  },
+  "systemmsg": {
+    "getPage": "notice/getPage",
+    "findById": "notice/getById",
+    "create": "notice/create",
+    "update": "notice/update",
+    "delUrl": "notice/delete",
+    "changeStatus": "notice/changeStatus",
+    "download": "pubHttpInterface/download",
+    "upload": "notice/upload",
+    "deleteAttachment": "notice/deleteAttachment",
+    "findByIdDetail": "notice/editList"
+  },
+  "systemparam": {
+    "getPage": "system/config/getPage",
+    "findById": "system/config/getById",
+    "update": "system/config/update"
+  },
+  "sysbusiness": {
+    "getOrgTree": "bussinessConfig/getOrgTree",
+    "getOrgUser": "bussinessConfig/getOrgUser",
+    "getUserConfig": "bussinessConfig/getUserBussinessConfig",
+    "getOrgConfig": "bussinessConfig/getOrgBussinessConfig",
+    "findById": "bussinessConfig/findById",
+    "update": "bussinessConfig/updateById"
+  },
+  "dict": {
+    "dicttree": "dict/getDictTree",
+    "getTypeName": "dict/getTypeName",
+    "getPage": "dict/getPage",
+    "create": "dict/create",
+    "delUrl": "dict/delete",
+    "update": "dict/update",
+    "findById": "dict/findById",
+    "getDictCascade": "dict/getDictCascade"
+  },
+  "perccUser": {
+    "getCreditUser": "person-query/creditUser/getCreditUser"
+  },
+  "peruserattr": {
+    "create": "person-query/userattr/create",
+    "update": "person-query/userattr/update",
+    "findByUserName": "person-query/userattr/findByUserName2"
+  },
+  "enccUser": {
+    "getCreditUser": "ent-query/creditUser/getCreditUser"
+  },
+  "enuserattr": {
+    "create": "ent-query/userattr/create",
+    "update": "ent-query/userattr/update",
+    "findByUserName": "ent-query/userattr/findByUserName2"
+  },
+  "perroleManage": {
+    "getAllReason": "person-query/common/getAllReason",
+    "saveUserReason": "person-query/common/saveUserReason"
+  },
+  "enroleManage": {
+    "getAllReason": "ent-query/common/getAllReason",
+    "saveUserReason": "ent-query/common/saveUserReason"
+  },
+  "onlineDict": {
+    "getPage": "sys/dict/list",
+    "check": "sys/dict/check",
+    "add": "sys/dict/add",
+    "edit": "sys/dict/edit",
+    "delete": "sys/dict/delete"
+  },
+  "onlineDictItem": {
+    "getPage": "sys/dictItem/list",
+    "dictItemCheck": "sys/dictItem/dictItemCheck",
+    "add": "sys/dictItem/add",
+    "edit": "sys/dictItem/edit",
+    "delete": "sys/dictItem/delete"
+  },
+  "onlineCommon": {
+    "upload": "sys/common/upload"
+  },
+  "onlineConfigBtn": {
+    "getPage": "online/cgform/button/list",
+    "queryById": "online/cgform/button/queryById",
+    "add": "online/cgform/button/add",
+    "edit": "online/cgform/button/edit",
+    "delete": "online/cgform/button/delete",
+    "deleteBatch": "online/cgform/button/deleteBatch"
+  },
+  "onlineFormHead": {
+    "getPage": "online/cgform/head/list",
+    "queryById": "online/cgform/head/queryById",
+    "deleteRecord": "online/cgform/head/delete",
+    "deleteBatch": "online/cgform/head/deleteBatch",
+    "removeRecord": "online/cgform/head/removeRecord",
+    "queryTables": "online/cgform/head/queryTables",
+    "transTables": "online/cgform/head/transTables",
+    "enhanceButton": "online/cgform/head/enhanceButton",
+    "enhanceSql": "online/cgform/head/enhanceSql",
+    "deletebatchEnhanceSql": "online/cgform/head/deletebatchEnhanceSql",
+    "copyOnline": "online/cgform/head/copyOnline",
+
+    "queryByTableNames": "online/cgform/head/queryByTableNames",
+    "add": "online/cgform/head/add",
+    "edit": "online/cgform/head/edit"
+  },
+  "onlineFormField": {
+    "listByHeadId": "online/cgform/field/listByHeadId",
+
+    "list": "online/cgform/field/list",
+    "listByHeadCode": "online/cgform/field/listByHeadCode",
+    "queryById": "online/cgform/field/queryById",
+    "add": "online/cgform/field/add",
+    "edit": "online/cgform/field/edit",
+    "delete": "online/cgform/field/delete",
+    "deleteBatch": "online/cgform/field/deleteBatch"
+  },
+  "onlineFormIdx": {
+    "listByHeadId": "online/cgform/index/listByHeadId",
+
+    "list": "online/cgform/index/list",
+    "queryById": "online/cgform/index/queryById",
+    "add": "online/cgform/index/add",
+    "edit": "online/cgform/index/edit",
+    "delete": "online/cgform/index/delete",
+    "deleteBatch": "online/cgform/index/deleteBatch"
+  },
+  "onlineFormApi": {
+    "doDbSynch": "Online/cgform/api/doDbSynch",
+    "checkOnlyTable": "Online/cgform/api/checkOnlyTable",
+    "addAll": "Online/cgform/api/addAll",
+    "editAll": "Online/cgform/api/editAll",
+    "getColumns": "Online/cgform/api/getColumns",
+    "getQueryInfo": "Online/cgform/api/getQueryInfo",
+    "getData": "Online/cgform/api/getData",
+    "getFormItem": "Online/cgform/api/getFormItem",
+    "autoForm": "Online/cgform/api/form",
+    "exportXls": "Online/cgform/api/exportXls",
+    "importXls": "Online/cgform/api/importXls",
+    "doButton": "Online/cgform/api/doButton",
+
+    "getFormItemBytbname": "Online/cgform/api/getFormItemBytbname/{table}",
+    "tableName": "Online/cgform/api/form/table_name/{tableName}/{dataId}",
+    "getEnhanceJs": "Online/cgform/api/getEnhanceJs/{code}",
+    "subform": "Online/cgform/api/subform/{table}/{mainId}",
+    "subformList": "Online/cgform/api/subform/list/{table}/{mainId}"
+  }
+}

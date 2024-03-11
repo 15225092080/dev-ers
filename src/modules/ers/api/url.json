@@ -1,0 +1,876 @@
+{
+    "common": {
+        "dic": "common/dic",
+        "orgTree": "common/orgTree",
+        "getDeptCodeName": "common/getDeptCodeName",
+        "getEmpdCodeName": "common/getEmpdCodeName",
+        "orgtree": "org/getTree",
+        "empdTree": "common/empdTree",
+        "getArea": "common/distTree"
+    },
+    "menu": {
+        "getPage": "resource/resourceTree",
+        "findById": "resource/findByResourceId",
+        "update": "resource/updateResource",
+        "create": "resource/saveResource",
+        "delUrl": "resource/deleteByResources",
+        "getTreeData": "resource/getTreeData"
+    },
+    "home": {
+        "systemList": "home/systemList",
+        "system": "home/system"
+    },
+    "ebb": {
+        "create": "ebb/create",
+        "update": "ebb/update",
+        "detailUrl": "ebb/detail",
+        "delete": "ebb/delete",
+        "searchUrl": "ebb/search",
+        "getValUrl": "ebb/findByCustId",
+        "getPage": "ebb/getPage",
+        "ajaxIsOnly": "ebb/validatorCustId",
+        "getPageByDataId":"ebb/getHistory",
+        "findDetailById": "ebb/historyDetail"
+    },
+    "ebc": {
+        "create": "ebc/create",
+        "update": "ebc/update",
+        "detailUrl": "ebc/detail",
+        "delete": "ebc/delete",
+        "searchUrl": "ebc/search",
+        "getValUrl": "ebc/findById",
+        "getPage": "ebc/getPage"
+    },
+    "ebd": {
+        "create": "ebd/create",
+        "update": "ebd/update",
+        "detailUrl": "ebd/detail",
+        "searchUrl": "ebd/search",
+        "getValUrl": "ebd/findByCustId",
+        "getEmpdCodeName": "common/getEmpdCodeName?code="
+    },
+    "ebe": {
+        "create": "ebe/create",
+        "update": "ebe/update",
+        "detailUrl": "ebe/detail",
+        "delete": "ebe/delete",
+        "searchUrl": "ebe/search",
+        "getValUrl": "ebe/findById",
+        "getPage": "ebe/getPage"
+    },
+    "ebf": {
+        "create": "ebf/create",
+        "update": "ebf/update",
+        "detailUrl": "ebf/detail",
+        "searchUrl": "ebf/search",
+        "getValUrl": "ebf/findByCustId"
+    },
+    "ebfInf": {
+        "create": "ebfInf/create",
+        "update": "ebfInf/update",
+        "detailUrl": "ebfInf/detail",
+        "delete": "ebfInf/delete",
+        "searchUrl": "ebfInf/search",
+        "getValUrl": "ebfInf/findById",
+        "getPage": "ebfInf/getPage"
+    },
+    "ebg": {
+        "create": "ebg/create",
+        "update": "ebg/update",
+        "detailUrl": "ebg/detail",
+        "delete": "ebg/delete",
+        "searchUrl": "ebg/search",
+        "getValUrl": "ebg/findById",
+        "getPage": "ebg/getPage"
+    },
+    "ebh": {
+        "create": "ebh/create",
+        "update": "ebh/update",
+        "detailUrl": "ebh/detail",
+        "searchUrl": "ebh/search",
+        "getValUrl": "ebh/findByCustId"
+    },
+    "ebi": {
+        "create": "ebi/create",
+        "update": "ebi/update",
+        "detailUrl": "ebi/detail",
+        "searchUrl": "ebi/search",
+        "getValUrl": "ebi/findByCustId"
+    },
+    "ecb": {
+        "creUrl": "ecb/create",
+        "getPage": "ecb/getPage",
+        "updUrl": "ecb/update",
+        "searchUrl": "ecb/search",
+        "detailUrl": "ecb/detail",
+        "getValUrl": "ecb/findById",
+        "getValUrlCreate": "ecb/findByCustId",
+        "listUrl": "ecb/list",
+        "delUrl": "ecb/delete",
+        "ajaxIsOnly": "ecb/validatorCustId",
+        "getPageByDataId":"ecb/getHistory",
+        "findDetailById": "ecb/historyDetail"
+    },
+    "amom": {
+        "creUrl": "amom/create",
+        "getPage": "amom/getPage",
+        "updUrl": "amom/update",
+        "searchUrl": "amom/search",
+        "detailUrl": "amom/detail",
+        "listUrl": "amom/list",
+        "getValUrl": "amom/findById"
+    },
+    "ecc": {
+        "creUrl": "ecc/create",
+        "getPage": "ecc/getPage",
+        "updUrl": "ecc/update",
+        "searchUrl": "ecc/search",
+        "detailUrl": "ecc/detail",
+        "listUrl": "ecc/list",
+        "getValUrl": "ecc/findById",
+        "getValUrlCreate": "ecc/findByCustId",
+        "delUrl": "ecc/delete",
+        "ajaxIsOnly": "ecc/validatorCustId",
+        "getPageByDataId":"ecc/getHistory",
+        "findDetailById": "ecc/historyDetail"
+    },
+    "eeb": {
+        "getPage": "eeb/getPage",
+        "findById": "eeb/findByBussNum",
+        "ajaxIsOnly": "eeb/validatorBussNum",
+        "create": "eeb/create",
+        "update": "eeb/update",
+        "delUrl": "eeb/delete",
+        "getPageByDataId":"eehistory/page",
+        "findDetailById": "eehistory/detail"
+    },
+    "elb": {
+        "create": "elb/create",
+        "update": "elb/update",
+        "creUrl": "elb/createPage",
+        "updUrl": "elb/updatePage",
+        "detailUrl": "elb/detail",
+        "delUrl": "elb/delete",
+        "searchUrl": "elb/search",
+        "getValUrl": "elb/findByBussNum",
+        "getPage": "elb/getPage",
+        "ajaxIsOnly": "elb/validatorBussNum",
+        "getPageByDataId":"elhistory/page",
+        "findDetailById": "elhistory/detail"
+    },
+    "era": {
+        "create": "era/create",
+        "update": "era/update",
+        "detailUrl": "era/detail",
+        "delete": "era/delete",
+        "searchUrl": "era/search",
+        "getValUrl": "era/findByCustId",
+        "getPage": "era/getPage",
+        "ajaxIsOnly": "era/validatorCustId",
+        "getPageByDataId":"era/getHistory",
+        "findDetailById": "era/historyDetail",
+        "exportUrl": "era/excel",
+        "batch": "erm/batch",
+        "batchProcess": "erm/batchProcess",
+        "getTotalScore": "erm/getTotalScore",
+        "getIndexDetail": "erm/getIndexDetail",
+        "updateUserScore": "erm/updateUserScore"
+    },
+    "erb": {
+        "create": "erb/create",
+        "update": "erb/update",
+        "detailUrl": "erb/detail",
+        "delete": "erb/delete",
+        "searchUrl": "erb/search",
+        "getValUrl": "erb/findByCustId",
+        "getPage": "erb/getPage",
+        "ajaxIsOnly": "erb/validatorCustId",
+        "getPageByDataId":"erb/getHistory",
+        "findDetailById": "erb/historyDetail"
+    },
+    "erc": {
+        "create": "erc/create",
+        "update": "erc/update",
+        "detailUrl": "erc/detail",
+        "delete": "erc/delete",
+        "searchUrl": "erc/search",
+        "getValUrl": "erc/findByCustId",
+        "getPage": "erc/getPage",
+        "ajaxIsOnly": "erc/validatorCustId",
+        "getPageByDataId":"erc/getHistory",
+        "findDetailById": "erc/historyDetail"
+    },
+    "erd": {
+        "create": "erd/create",
+        "update": "erd/update",
+        "detailUrl": "erd/detail",
+        "delete": "erd/delete",
+        "searchUrl": "erd/search",
+        "getValUrl": "erd/findByCustId",
+        "getPage": "erd/getPage",
+        "ajaxIsOnly": "erd/validatorCustId",
+        "getPageByDataId":"erd/getHistory",
+        "findDetailById": "erd/historyDetail"
+    },
+    "erdSha": {
+        "create": "erdSha/create",
+        "update": "erdSha/update",
+        "detailUrl": "erdSha/detail",
+        "delete": "erdSha/delete",
+        "searchUrl": "erdSha/search",
+        "getValUrl": "erdSha/findById",
+        "getPage": "erdSha/getPage",
+        "ajaxIsOnly": "erdSha/validatorCustId",
+        "getPageByDataId":"erdSha/getHistory",
+        "findDetailById": "erdSha/historyDetail"
+    },
+    "ere": {
+        "create": "ere/create",
+        "update": "ere/update",
+        "detailUrl": "ere/detail",
+        "delete": "ere/delete",
+        "searchUrl": "ere/search",
+        "getValUrl": "ere/findById",
+        "getPage": "ere/getPage",
+        "ajaxIsOnly": "ere/validatorBussNum",
+        "getPageByDataId":"elhistory/page",
+        "findDetailById": "elhistory/detail"
+    },
+    "erf": {
+        "create": "erf/create",
+        "update": "erf/update",
+        "detailUrl": "erf/detail",
+        "delete": "erf/delete",
+        "searchUrl":"erf/search",
+        "getValUrl": "erf/findById",
+        "getPage": "erf/getPage",
+        "ajaxIsOnly": "erf/validatorId",
+        "getPageByDataId":"erf/getHistory",
+        "findDetailById": "erf/historyDetail"
+    },
+    "erg": {
+        "create": "erg/create",
+        "update": "erg/update",
+        "detailUrl": "erg/detail",
+        "delete": "erg/delete",
+        "searchUrl": "erg/search",
+        "getValUrl": "erg/findById",
+        "getPage": "erg/getPage",
+        "ajaxIsOnly": "erg/validatorCustId",
+        "getPageByDataId":"erg/getHistory",
+        "findDetailById": "erg/historyDetail"
+    },
+    "erh": {
+        "create": "erh/create",
+        "update": "erh/update",
+        "detailUrl": "erh/detail",
+        "delete": "erh/delete",
+        "searchUrl": "erh/search",
+        "getValUrl": "erh/findById",
+        "getPage": "erh/getPage",
+        "ajaxIsOnly": "erh/validatorCustId",
+        "getPageByDataId":"erh/getHistory",
+        "findDetailById": "erh/historyDetail"
+    },
+    "eri": {
+        "create": "eri/create",
+        "update": "eri/update",
+        "detailUrl": "eri/detail",
+        "delete": "eri/delete",
+        "searchUrl": "eri/search",
+        "getValUrl": "eri/findById",
+        "getPage": "eri/getPage",
+        "ajaxIsOnly": "eri/validatorCustId",
+        "getPageByDataId":"eri/getHistory",
+        "findDetailById": "eri/historyDetail"
+    },
+    "erj": {
+        "create": "erj/create",
+        "update": "erj/update",
+        "creUrl": "erj/createPage",
+        "updUrl": "erj/updatePage",
+        "detailUrl": "erj/detail",
+        "delete": "erj/delete",
+        "searchUrl": "erj/search",
+        "getValUrl": "erj/findByBussNum",
+        "ajaxIsOnly": "erj/validatorBussNum",
+        "getPage": "erj/getPage",
+        "listTabUrl": "erj/listTab",
+        "exportUrl": "erj/excel",
+        "getEmpdCodeName": "common/getEmpdCodeName?code="
+    },
+    "erk": {
+        "create": "erk/create",
+        "update": "erk/update",
+        "creUrl": "erk/createPage",
+        "updUrl": "erk/updatePage",
+        "detailUrl": "erk/detail",
+        "delete": "erk/delete",
+        "searchUrl": "erk/search",
+        "getValUrl": "erk/findByBussNum",
+        "getPage": "erk/getPage",
+        "listTabUrl": "erk/listTab",
+        "getEmpdCodeName": "common/getEmpdCodeName?code="
+    },
+    "ers": {
+        "create": "ers/create",
+        "update": "ers/update",
+        "detailUrl": "ers/detail",
+        "delete": "ers/delete",
+        "searchUrl": "ers/search",
+        "getValUrl": "ers/findByCustId",
+        "getPage": "ers/getPage",
+        "ajaxIsOnly": "ers/validatorCustId",
+        "getPageByDataId":"ers/getHistory",
+        "findDetailById": "ers/historyDetail"
+    },
+    "elc": {
+        "create": "elc/create",
+        "update": "elc/update",
+        "creUrl": "elc/createPage",
+        "updUrl": "elc/updatePage",
+        "detailUrl": "elc/detail",
+        "delete": "elc/delete",
+        "searchUrl": "elc/search",
+        "getValUrl": "elc/findById",
+        "getPage": "elc/getPage",
+        "listTabUrl": "elc/listTab",
+        "getEmpdCodeName": "common/getEmpdCodeName?code="
+    },
+    "eld": {
+        "create": "eld/create",
+        "update": "eld/update",
+        "creUrl": "eld/createPage",
+        "updUrl": "eld/updatePage",
+        "detailUrl": "eld/detail",
+        "delete": "eld/delete",
+        "searchUrl": "eld/search",
+        "getValUrl": "eld/findById",
+        "getPage": "eld/getPage",
+        "listTabUrl": "eld/listTab"
+    },
+    "ele": {
+        "create": "ele/create",
+        "update": "ele/update",
+        "creUrl": "ele/createPage",
+        "updUrl": "ele/updatePage",
+        "detailUrl": "ele/detail",
+        "delete": "ele/delete",
+        "searchUrl": "ele/search",
+        "getValUrl": "ele/findById",
+        "getPage": "ele/getPage",
+        "listTabUrl": "ele/listTab"
+    },
+    "elf": {
+        "create": "elf/create",
+        "update": "elf/update",
+        "creUrl": "elf/createPage",
+        "updUrl": "elf/updatePage",
+        "detailUrl": "elf/detail",
+        "delete": "elf/delete",
+        "searchUrl": "elf/search",
+        "getValUrl": "elf/findByBussNum",
+        "getPage": "elf/getPage"
+    },
+    "elg": {
+        "create": "elg/create",
+        "update": "elg/update",
+        "creUrl": "elg/createPage",
+        "updUrl": "elg/updatePage",
+        "detailUrl": "elg/detail",
+        "delete": "elg/delete",
+        "searchUrl": "elg/search",
+        "getValUrl": "elg/findByBussNum",
+        "getPage": "elg/getPage"
+    },
+    "elh": {
+        "create": "elh/create",
+        "update": "elh/update",
+        "creUrl": "elh/createPage",
+        "updUrl": "elh/updatePage",
+        "detailUrl": "elh/detail",
+        "delete": "elh/delete",
+        "searchUrl": "elh/search",
+        "getValUrl": "elh/findById",
+        "getPage": "elh/getPage",
+        "listTabUrl": "elh/listTab"
+    },
+    "eli": {
+        "create": "eli/create",
+        "update": "eli/update",
+        "creUrl": "eli/createPage",
+        "updUrl": "eli/updatePage",
+        "detailUrl": "eli/detail",
+        "delete": "eli/delete",
+        "searchUrl": "eli/search",
+        "getValUrl": "eli/findById",
+        "getPage": "eli/getPage",
+        "listTabUrl": "eli/listTab"
+    },
+    "eec": {
+        "getPage": "eec/getPage",
+        "findById": "eec/findById",
+        "create": "eec/create",
+        "update": "eec/update",
+        "delete": "eec/delete"
+    },
+    "eed": {
+        "getPage": "eed/getPage",
+        "findById": "eed/findById",
+        "create": "eed/create",
+        "update": "eed/update",
+        "delete": "eed/delete"
+    },
+    "efb": {
+        "create": "efb/create",
+        "update": "efb/update",
+        "import": "efb/import",
+        "efdetail":"efb/efdetail",
+        "detailUrl": "efb/detail",
+        "delUrl": "efb/delete",
+        "searchUrl": "efb/search",
+        "getValUrl": "efb/findById",
+        "getPage": "efb/getPage",
+        "ajaxIsOnly": "efb/validatorCustId",
+        "getPageByDataId":"efb/history",
+        "findDetailById": "efb/history/detail"
+    },
+    "efc": {
+        "create": "efc/create",
+        "update": "efc/update",
+        "detailUrl": "efc/detail",
+        "delUrl": "efc/delete",
+        "searchUrl": "efc/search",
+        "getValUrl": "efc/findById",
+        "getPage": "efc/getPage",
+        "ajaxIsOnly": "efc/validatorCustId",
+        "getPageByDataId":"efc/history",
+        "findDetailById": "efc/history/detail"
+    },
+    "efd": {
+        "create": "efd/create",
+        "update": "efd/update",
+        "detailUrl": "efd/detail",
+        "delUrl": "efd/delete",
+        "searchUrl": "efd/search",
+        "getValUrl": "efd/findById",
+        "getPage": "efd/getPage",
+        "ajaxIsOnly": "efd/validatorCustId",
+        "getPageByDataId":"efd/history",
+        "findDetailById": "efd/history/detail"
+    },
+    "efe": {
+        "create": "efe/create",
+        "update": "efe/update",
+        "detailUrl": "efe/detail",
+        "delUrl": "efe/delete",
+        "searchUrl": "efe/search",
+        "getValUrl": "efe/findById",
+        "getPage": "efe/getPage",
+        "ajaxIsOnly": "efe/validatorCustId",
+        "getPageByDataId":"efe/history",
+        "findDetailById": "efe/history/detail"
+    },
+    "eff": {
+        "create": "eff/create",
+        "update": "eff/update",
+        "detailUrl": "eff/detail",
+        "delUrl": "eff/delete",
+        "searchUrl": "eff/search",
+        "getValUrl": "eff/findById",
+        "getPage": "eff/getPage",
+        "ajaxIsOnly": "eff/validatorCustId",
+        "getPageByDataId":"eff/history",
+        "findDetailById": "eff/history/detail"
+    },
+    "efg": {
+        "create": "efg/create",
+        "update": "efg/update",
+        "detailUrl": "efg/detail",
+        "delUrl": "efg/delete",
+        "searchUrl": "efg/search",
+        "getValUrl": "efg/findById",
+        "getPage": "efg/getPage",
+        "ajaxIsOnly": "efg/validatorCustId",
+        "getPageByDataId":"efg/history",
+        "findDetailById": "efg/history/detail"
+    },
+    "efh": {
+        "create": "efh/create",
+        "update": "efh/update",
+        "detailUrl": "efh/detail",
+        "delUrl": "efh/delete",
+        "searchUrl": "efh/search",
+        "getValUrl": "efh/findById",
+        "getPage": "efh/getPage",
+        "ajaxIsOnly": "efh/validatorCustId",
+        "getPageByDataId":"efh/history",
+        "findDetailById": "efh/history/detail"
+    },
+    "efi": {
+        "create": "efi/create",
+        "update": "efi/update",
+        "detailUrl": "efi/detail",
+        "delUrl": "efi/delete",
+        "searchUrl": "efi/search",
+        "getValUrl": "efi/findById",
+        "getPage": "efi/getPage",
+        "ajaxIsOnly": "efi/validatorCustId",
+        "getPageByDataId":"efi/history",
+        "findDetailById": "efi/history/detail"
+    },
+    "egb": {
+        "create": "egb/create",
+        "update": "egb/update",
+        "detailUrl": "egb/detail",
+        "searchUrl": "egb/search",
+        "delete": "egb/delete",
+        "getValUrl": "egb/findByBussNum",
+        "getPage": "egb/getPage",
+        "ajaxIsOnly": "egb/validatorBussNum",
+        "getPageByDataId":"egb/getPageByDataId",
+        "findDetailById": "egb/findDeDetailByIdAndRptDate"
+    },
+    "egc": {
+        "create": "egc/create",
+        "update": "egc/update",
+        "detailUrl": "egc/detail",
+        "delete": "egc/delete",
+        "searchUrl": "egc/search",
+        "getValUrl": "egc/findById",
+        "getPage": "egc/getPage"
+    },
+    "egd": {
+        "create": "egd/create",
+        "update": "egd/update",
+        "detailUrl": "egd/detail",
+        "delete": "egd/delete",
+        "searchUrl": "egd/search",
+        "getValUrl": "egd/findById",
+        "getPage": "egd/getPage"
+    },
+    "ege": {
+        "create": "ege/create",
+        "update": "ege/update",
+        "detailUrl": "ege/detail",
+        "delete": "ege/delete",
+        "searchUrl": "ege/search",
+        "getValUrl": "ege/findById",
+        "getPage": "ege/getPage"
+    },
+    "egg": {
+        "create": "egg/create",
+        "update": "egg/update",
+        "detailUrl": "egg/detail",
+        "delete": "egg/delete",
+        "searchUrl": "egg/search",
+        "getValUrl": "egg/findByBussNum",
+        "getPage": "egg/getPage"
+    },
+    "epb": {
+        "create": "epb/create",
+        "update": "epb/update",
+        "detailUrl": "epb/detail",
+        "searchUrl": "epb/search",
+        "delete": "epb/delete",
+        "getValUrl": "epb/findByBussNum",
+        "getPage": "epb/getPage",
+        "ajaxIsOnly": "epb/validatorBussNum",
+        "getPageByDataId": "epb/findHistoryListByDataId",
+        "findDetailById": "epb/findHistoryDetails"
+    },
+    "epd": {
+        "create": "epd/create",
+        "update": "epd/update",
+        "detailUrl": "epd/detail",
+        "searchUrl": "epd/search",
+        "delete": "epd/delete",
+        "getValUrl": "epd/findById",
+        "getPage": "epd/getPage"
+    },
+    "epe": {
+        "create": "epe/create",
+        "update": "epe/update",
+        "detailUrl": "epe/detail",
+        "searchUrl": "epe/search",
+        "delete": "epe/delete",
+        "getValUrl": "epe/findById",
+        "getPage": "epe/getPage"
+    },
+    "epf": {
+        "create": "epf/create",
+        "update": "epf/update",
+        "detailUrl": "epf/detail",
+        "searchUrl": "epf/search",
+        "delete": "epf/delete",
+        "getValUrl": "epf/findById",
+        "getPage": "epf/getPage"
+    },
+    "emieError": {
+        "getValUrl": "emieError/findById",
+        "searchUrl": "emieError/search",
+        "detailUrl": "emieError/detail",
+        "getPage": "emieError/getPage",
+        "exportUrl": "emieError/exportExcel"
+    },
+    "interImport": {
+        "searchUrl": "interImport/search",
+        "getValUrl": "interImport/findTaskByBatchNum",
+        "getPage": "interImport/getPage",
+        "importUrl": "interImport/importData",
+        "processUrl": "interImport/importProcess",
+        "detailUrl": "interImport/detail",
+        "getBatchNum": "interImport/findByBatchNum"
+    },
+    "submit": {
+        "getdetailmsg": "submit/getdetailmsg",
+        "normal": "submit/normal",
+        "newSubmit": "submit/newSubmit"
+    },
+    "econfig": {
+        "create": "econfig/create",
+        "getPage": "econfig/getPage",
+        "update": "econfig/update",
+        "searchUrl": "econfig/search",
+        "detailUrl": "econfig/detail",
+        "listUrl": "econfig/list",
+        "getValUrl": "econfig/findById"
+    },
+    "ebatch": {
+        "creUrl": "ebatch/createPage",
+        "getPage": "ebatch/getPage",
+        "updUrl": "ebatch/updatePage",
+        "searchUrl": "ebatch/search",
+        "detailUrl": "ebatch/detail",
+        "listUrl": "ebatch/list",
+        "getValUrl": "ebatch/findById",
+        "revokeUrl": "ebatch/revoke",
+        "uploadUrl": "ebatch/upload",
+        "backUrl": "ebatch/download"
+    },
+    "credituser": {
+        "getPage": "credituser/getPage",
+        "delete": "credituser/delete",
+        "getValUrl": "credituser/findById",
+        "create": "credituser/create",
+        "update": "credituser/update"
+    },
+    "interceptA": {
+        "getPage": "intercept/getPage",
+        "upload": "intercept/uploadA",
+        "errExcel": "intercept/errExcel",
+        "findOperateHistroy": "intercept/findOperateHistroy",
+        "downloadModel": "intercept/downloadModel",
+        "delete": "intercept/delete",
+        "creUrl":"intercept/create",
+        "updUrl":"intercept/update",
+        "getValUrl":"intercept/findById"
+    },
+    "interceptR": {
+        "getPage": "intercept/getPage",
+        "upload": "intercept/uploadR",
+        "errExcel": "intercept/errExcel",
+        "findOperateHistroy": "intercept/findOperateHistroy",
+        "downloadModel": "intercept/downloadModel",
+        "delete": "intercept/delete",
+        "creUrl":"intercept/create",
+        "updUrl":"intercept/update",
+        "getValUrl":"intercept/findById"
+    },
+    "rptWhiteListA": {
+        "getPage": "rptWhiteList/getPage",
+        "upload": "rptWhiteList/uploadA",
+        "errExcel": "rptWhiteList/errExcel",
+        "findOperateHistroy": "rptWhiteList/findOperateHistroy",
+        "downloadModel": "rptWhiteList/downloadModel",
+        "delete": "rptWhiteList/delete",
+        "creUrl":"rptWhiteList/create",
+        "updUrl":"rptWhiteList/update",
+        "getValUrl":"rptWhiteList/findById"
+    },
+    "rptWhiteListR": {
+        "getPage": "rptWhiteList/getPage",
+        "upload": "rptWhiteList/uploadR",
+        "errExcel": "rptWhiteList/errExcel",
+        "findOperateHistroy": "rptWhiteList/findOperateHistroy",
+        "downloadModel": "rptWhiteList/downloadModel",
+        "delete": "rptWhiteList/delete",
+        "creUrl":"rptWhiteList/create",
+        "updUrl":"rptWhiteList/update",
+        "getValUrl":"rptWhiteList/findById"
+    },
+    "rateImportApp": {
+        "getPage": "rateImportApp/getPage",
+        "exportExcel": "rateImportApp/exportExcel",
+        "getValUrl":"rateImportApp/findById",
+        "uploadUrl":"rateImportApp/upload",
+        "importProcess":"rateImportApp/importProcess"
+    },
+    "rateImportPrepare": {
+        "create": "rateImportPrepare/create",
+        "update": "rateImportPrepare/update",
+        "detailUrl": "rateImportPrepare/detail",
+        "delete": "rateImportPrepare/delete",
+        "searchUrl": "rateImportPrepare/search",
+        "getValUrl": "rateImportPrepare/findById",
+        "getPage": "rateImportPrepare/getPage"
+    },
+    "rateImportProcess": {
+        "create": "rateImportProcess/create",
+        "update": "rateImportProcess/update",
+        "detailUrl": "rateImportProcess/detail",
+        "delete": "rateImportProcess/delete",
+        "searchUrl": "rateImportProcess/search",
+        "getValUrl": "rateImportProcess/findById",
+        "getPage": "rateImportProcess/getPage"
+    },
+    "rateImportAsset": {
+        "create": "rateImportAsset/create",
+        "update": "rateImportAsset/update",
+        "detailUrl": "rateImportAsset/detail",
+        "delete": "rateImportAsset/delete",
+        "searchUrl": "rateImportAsset/search",
+        "getValUrl": "rateImportAsset/findById",
+        "getPage": "rateImportAsset/getPage"
+    },
+    "dataCheck": {
+        "getPage": "dataCheck/getPage",
+        "newExportUrl": "dataCheck/export",
+        "downloadModel": "dataCheck/download"
+    },
+    "emsg": {
+        "detailUrl2": "ebatchm/detail",
+        "getPage": "ebatchm/getPage",
+        "getValUrl": "ebatchm/findById",
+        "findByMsgNum": "ermg/findByMsgNum",
+        "export": "ebatchm/export",
+        "excelUrl":"ebatchm/xmlToExcel",
+        "excelUrlPath":"ebatchm/asyncDowload",
+        "downloadUrlPath":"ebatchm/asyncExport"
+    },
+    "idcagsinf": {
+        "modelDwUrl": "idcagsinf/downloadModel",
+        "uploadUrl": "idcagsinf/upload",
+        "preValidateUrl": "idcagsinf/preValidate",
+        "errExcelUrl": "idcagsinf/errExcel",
+        "reportUrl": "idcagsinf/report",
+        "firstUrl": "idcagsinf/idcagsinfdetail",
+        "feedUrl": "idcagsinf/feedback",
+        "feedErrorUrl": "idcagsinf/downloadfeedbackerr",
+        "downloadReportUrl": "idcagsinf/downloadreport"
+    },
+    "msgForm":{
+        "getPage" : "msgForm/find",
+		"exportUrl":"msgForm/excel"
+    },
+    "noorg":{
+        "getPage" : "err/geterrdatanoorg",
+		"exportUrl":"err/excelnoorg"
+    },
+    "hasorg":{
+        "getPage" : "err/geterrdatahasorg",
+		"exportUrl":"err/excelhasorg"
+    },
+    "interFaceFileImport":{
+        "getPage" : "interFaceFileImport/getAll",
+        "uploadUrl":"interFaceFileImport/upload",
+        "processUrl":"interFaceFileImport/importProcess",
+        "errExcelUrl":"interFaceFileImport/exportExcel",
+        "downloadModel":"interFaceFileImport/downloadModel"
+    },
+    "entInform":{
+        "creUrl": "entInform/addUser",
+        "updUrl": "entInform/updateUser",
+        "detailUrl": "entInform/config",
+        "delUrl": "entInform/deleteInformUser",
+        "getValUrl": "entInform/findUser",
+        "getPage1": "entInform/getPage",
+        "getPage": "entInform/getInformUser",
+        "addInformUser":"entInform/addInformUser",
+        "updateInformUser":"entInform/updateInformUser",
+        "updateInformStatus": "entInform/updateInformStatus",
+        "updateSwitchStatus": "entInform/updateSwitchStatus",
+        "addCheckPhone": "entInform/addCheckPhone",
+        "addCheckEmail": "entInform/addCheckEmail",
+        "updateCheckPhone": "entInform/updateCheckPhone",
+        "updateCheckEmail": "entInform/updateCheckEmail",
+        "addCheckWechat": "entInform/addCheckWechat",
+        "addCheckDingtalk": "entInform/addCheckDingtalk",
+        "updateCheckWechat": "entInform/updateCheckWechat",
+        "updateCheckDingtalk": "entInform/updateCheckDingtalk"
+    },
+    "businessVolume": {
+        "findBusinessVolumeDate": "businessVolume/findBusinessVolumeDate",
+        "excel": "businessVolume/excel"
+    },
+    "customize": {
+        "getPage": "customize/getPage",
+        "getParams": "customize/getParams"
+    },
+    "approval":{
+        "getPage":"approval/getPage",
+        "getValUrl":"approval/findById",
+        "approvalUrl":"approval/approval",
+        "getApprovalRecord":"approval/getApprovalRecord",
+        "getOperationRecord":"approval/getOperationRecord",
+        "nameForjson": {
+            "ebb": "basicUrlList",
+            "ecb": "idefctinf",
+            "ecc": "ctfitginf",
+            "eeb": "creditUrlList",
+            "egb": "guaranteePageUrlList",
+            "elb": "loanUrlList",
+            "epb": "mortgageUrlList",
+            "efb": "financialt",
+            "efc": "financialt",
+            "efd": "financialt",
+            "efe": "financialt",
+            "eff": "financialt",
+            "efg": "financialt",
+            "efh": "financialt",
+            "efi": "financialt"
+        }
+    },
+    "approved":{
+        "getPage":"approval/getHistoryPage",
+        "getValUrl":"approval/findById"
+    },
+    "psgCheckError": {
+        "getValUrl": "psgCheckError/findById",
+        "searchUrl": "psgCheckError/search",
+        "detailUrl": "psgCheckError/detail",
+        "exportUrl": "psgCheckError/excel",
+        "getPage": "psgCheckError/getPage",
+        "nameForjson": {
+            "ebb": "basicUrlList",
+            "ecb": "idefctinf",
+            "ecc": "ctfitginf",
+            "eeb": "creditUrlList",
+            "egb": "guaranteePageUrlList",
+            "elb": "loanUrlList",
+            "epb": "mortgageUrlList",
+            "efb": "financialt",
+            "efc": "financialt",
+            "efd": "financialt",
+            "efe": "financialt",
+            "eff": "financialt",
+            "efg": "financialt",
+            "efh": "financialt",
+            "efi": "financialt"
+        }
+    },
+    "ersc": {
+        "getPage": "ersc/getPage",
+        "delete": "ersc/delete",
+        "getValUrl": "ersc/findById",
+        "create": "ersc/create",
+        "update": "ersc/update",
+        "importExcel":"ersc/importExcel",
+        "importProcess":"ersc/importProcess"
+    },
+    "authorize": {
+        "getPage": "authorize/getPage",
+        "upload":"authorize/upload",
+        "fileDowload":"authorize/fileDowload"
+    }
+}

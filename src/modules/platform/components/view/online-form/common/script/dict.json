@@ -1,0 +1,12 @@
+{
+  "tableType": [{ "label": "单表", "value": 1 }, { "label": "主表", "value": 2 }, { "label": "附表", "value": 3 }],
+  "formCategory": [{ "label": "默认表单", "value": "temp" }],
+  "idType": [{ "label": "分布式自增", "value": "UUID" }],
+  "formCol": [{ "label": "一列", "value": "1" }, { "label": "两列", "value": "2" }, { "label": "三列", "value": "3" }, { "label": "四列", "value": "4" }],
+  "dbSynch": [{ "label": "已同步", "value": "Y" }, { "label": "未同步", "value": "N" }],
+  "btnStyle": [{ "label": "link", "value": "link" }, { "label": "button", "value": "button" }],
+  "optType": [{ "label": "action", "value": "action" }],
+  "btnStatus": [{ "label": "激活", "value": "1" }, { "label": "未激活", "value": "0" }],
+  "if": [{ "label": "是", "value": "Y" }, { "label": "否", "value": "N" }],
+  "relationType": [{ "label": "一对多", "value": 0 }, { "label": "一对一", "value": 1 }]
+}
